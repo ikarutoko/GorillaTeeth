@@ -181,7 +181,7 @@ void OverviewPage::updatePlot(int count)
 
     if(fDebug) { printf("Plot: Getting Ready: pindexBest: %p\n", pindexBest); }
     	
-		bool fProofOfStake = (nBestHeight > LAST_POW_BLOCK + 100);
+		bool fProofOfStake = (nBestHeight > 100);
     if (fProofOfStake)
         ui->diffplot->yAxis->setLabel("Stake Weight");
 		else
