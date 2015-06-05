@@ -840,7 +840,7 @@ int64 GetProofOfWorkReward(uint256 hashPrevBlock)
 
 int64 GetProofOfStakeRewardYear(int nHeight) {
 static int64 nReward = 0;
-	if (nHeight < 24000) {
+	if (nHeight < 26000) {
 		if (nHeight % 100 <= 1) {
 			nReward = 6480;
 		} else {
