@@ -77,7 +77,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     rpcConsole(0)
 {
     resize(850, 550);
-    setWindowTitle(tr("GorillaTeeth Wallet | Cloud Staking Available on GorillaStake.com"));
+    setWindowTitle(tr("Arcanus Wallet | Welcome"));
 #ifndef Q_WS_MAC
     setWindowIcon(QIcon(":icons/toolbar"));
 #else
